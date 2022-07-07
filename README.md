@@ -24,7 +24,7 @@ Excel Summary and Command for Data Analystics
 
 3. > Click the `General` option. 
 
-4. > Finally, click inside the `Destination` box and type `$D$32`. Then click `Finish`.
+4. > Finally, click inside the `Destination` box and type starting Address e.g `$D$32`. Then click `Finish`.
 
 
 
