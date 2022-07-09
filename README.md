@@ -110,6 +110,6 @@ When you need to rotate columns and rows, you transpose them in Excel.
 
 > Q8. Find all the houses in the N. Country area with a list price > 300000 and having 3 or 4 bedrooms.
 
-> Result Worksheet =>: 
+> Result Worksheet =>: https://github.com/sheddyranking/-Excel-Summary-and-Command/blob/main/Sort%20and%20filter%20-%20Copy.xlsx
 
 
