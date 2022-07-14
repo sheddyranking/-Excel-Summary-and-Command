@@ -113,3 +113,54 @@ When you need to rotate columns and rows, you transpose them in Excel.
 > Result Worksheet =>: https://github.com/sheddyranking/-Excel-Summary-and-Command/blob/main/Sort%20and%20filter%20-%20Copy.xlsx
 
 
+### VLOOKUP, HLOOKUP, LOOKUP, iNDEX_MATCH.
+
+#### VLOOKUP
+> looks for a value in the leftmost column of a table and then return a value in the same row of the column you specofy.
+
+> `Left-Most`, This means which ever column your looking for a value in it most be `Left-most`, to archive this you most define a new `Table Name` to reference to when including it in the range. 
+
+##### has the Following attributes
+
+> 1. `LookUp value` - The Value to be Found in the First Column of the Table.
+
+> 2. `Table_Array` - The Table which the Data is being Retrieved From, this can be the original table if the value is from the first column or a New `Table Name` range.
+
+> 3. `Col_index_Num` - The Column Number from the Table_array which the Matching Value Should be Retrived from. NB. the first column in the Table_arrya is 1.
+
+#### HLOOKUP
+
+> This is same with `VLOOKUP`, the only only is, it search for a value horizontally from left to right. `Col-index-Num` Most be the top-left most.
+
+
+#### LOOKUP
+
+> This can be done with `VLOOKUP` and `HLOOKUP`, But instead to save more time, `Lookup`, only include the `Col-index_Num` from the Column in which the data is to be Filtered.
+
+
+#### INDEX MATCH FUNCTION
+
+> The Index Match Function can be used to Filter out a value as well.
+
+> Look at his example `INDEX(A1:F30,MATCH(B2,C1:C30,0)6)`
+
+> `A1:F30` - This represents the `Table Index-range`.
+
+> `B2` - The `Match Value`, the Value to be searched in the Table index-range.
+
+> `C1:C30` - This represents the `Col-index-num`, where the Match Value is located 
+
+> `0` - This represent `FALSE` which means the match value, must be `Exactly`.
+
+> `6` - The column index num of the Match value `result ouput`. 
+
+> NB: There are instances where the column index number of the match value can also be Match. eg.`INDEX(A1:A21,MATCH(J12,E1:E21,0),MATCH(A1,A1:A21,0))` (Here, we selected only the column where the match value can be found and still meatch it 0n the same column)
+
+### Data Analysis
+
+> Data analysis in Excel can be done with `Excel add-ins`, navigate to `File > option > add-ins > go > check(data analysis & solver)` 
+
+> After, Nagivate to `Data > left-most side` to access `Data analysis` or `solver` to perform analysis. 
+
+
+
